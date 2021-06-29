@@ -9,6 +9,7 @@ body {
     background-color: white;
     max-width: 1180px;
     margin: auto;
+    min-height: 100vh;
 }
 
 .container-top {
@@ -17,7 +18,7 @@ body {
     border-bottom: 1px solid black;
 }
 
-h6 {
+h5 {
   opacity: 0.6;
 }
 
@@ -60,20 +61,59 @@ img {
 }
 
 .about {
-    margin: 10px 50px 10px 50px;
+    margin: 10px 70px 10px 50px;
 }
 
 .about p {
-    font-size: 38px;
+    font-size: 34px;
     font-family: 'Artifika', serif;
 }
+
+/* GALLERY */
+
+.container-gallery {
+  max-width: 43rem;
+	margin: 0 auto;
+	padding: 3rem 2rem 2rem;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+  padding-top: 50px;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 12rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+  border-radius: 2px;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/* CONTACT */
 
 #contact {
     padding: 50px 250px 0;
 }
 
 #hire {
-    border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 body section {
@@ -88,6 +128,10 @@ body section {
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     font-weight: 100;
+    padding-top: 30px;
+  }
+  body section h5 {
+    text-align: left;
   }
   
   form {
@@ -208,7 +252,7 @@ body section {
     background: #3A999F;
   }
   
-  /* footer */
+  /* FOOTER */
 
   .social, .copyright {
     margin: 1rem;

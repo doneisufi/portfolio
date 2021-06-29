@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
+
 html {
     background-color: whitesmoke;
 }
@@ -24,18 +26,19 @@ h1 a{
     color: #3A999F;
 }
 
-/* h1 {
-    margin-right: 250px
-} */
-
 .nav-bar a {
     text-decoration: none;
     margin: 14px;
     color: #000;
+    transition: all 0.2s ease;
 }
 
 .nav-bar a:hover {
     color: #3A999F;
+}
+
+.nav-bar a:active {
+  color: #3A999F;
 }
 
 header {
@@ -195,3 +198,28 @@ body section {
     outline: none;
     background: #3A999F;
   }
+
+
+  
+  /* footer */
+
+  .social, .copyright {
+    margin: 1rem;
+    color: gray;
+  }
+  
+  .social li {
+    display: inline-block;
+  }
+
+  footer {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  .logo {
+    width: 17px;
+    height: 17px;
+    margin-right : 17px;
+  }
+  

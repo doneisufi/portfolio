@@ -64,7 +64,7 @@ img {
     margin: 35px 60px 10px 50px;
 }
 
-.about p {
+#special-pg {
     font-size: 32px;
     font-family: 'Artifika', serif;
     padding-bottom: 35px;
@@ -76,9 +76,10 @@ img {
 }
 
 .my-pg {
-  font-size: 14px!important;
+  font-size: 14px;
   opacity: 0.9;
   margin-right: 20px;
+  font-family: 'Artifika', serif;
 }
 
 /* GALLERY */

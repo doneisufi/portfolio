@@ -70,13 +70,13 @@ img {
     padding-bottom: 35px;
 }
 
-#about-smth {
+.about-smth {
   display: flex;
   justify-content: space-evenly;
 }
 
-#my-pg {
-  font-size: 14px;
+.my-pg {
+  font-size: 14px!important;
   opacity: 0.9;
   margin-right: 20px;
 }

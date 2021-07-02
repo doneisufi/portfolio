@@ -56,17 +56,29 @@ header {
 }
 
 img {
-    width: 33.33%;
+    width: 39%;
     height: 700px;
 }
 
 .about {
-    margin: 10px 70px 10px 50px;
+    margin: 35px 60px 10px 50px;
 }
 
 .about p {
-    font-size: 34px;
+    font-size: 32px;
     font-family: 'Artifika', serif;
+    padding-bottom: 35px;
+}
+
+#about-smth {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#my-pg {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-right: 20px;
 }
 
 /* GALLERY */

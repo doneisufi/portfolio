@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Artifika&display=swap");
 
 html {
-    background-color: whitesmoke;
+    background-color: rgba(209, 205, 205, 0.589);
 }
 
 body {
@@ -10,13 +10,90 @@ body {
     max-width: 1180px;
     margin: auto;
     min-height: 100vh;
+    box-shadow: 0 0 15px 0 grey;
+}
+
+
+/* ANIMATION */
+@keyframes changeColor {
+	to {
+		color: #3A999F;
+	}
 }
 
 .container-top {
-    display: flex;
-    justify-content: space-evenly;
-    border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+  overflow: hidden;
 }
+
+#name {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+}
+
+#name span {
+   animation: changeColor 1.2s ease-in-out infinite alternate;
+}
+
+#name span:nth-child(1) {
+  animation-delay: 0s;
+}
+
+#name span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+#name span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+#name span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+#name span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+#name span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+#name span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+#name span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+#name span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+#name span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+#name span:nth-child(11) {
+  animation-delay: 0.10s;
+}
+
+#name span:nth-child(12) {
+  animation-delay: 0.11s;
+}
+
+#name span:nth-child(13) {
+  animation-delay: 0.12s;
+}
+
+.space {
+  padding-left: 25px;
+}
+
+/* END OF ANIMATION */
 
 h5 {
   opacity: 0.6;
@@ -24,15 +101,6 @@ h5 {
 
 nav {
     padding-top: 30px;
-}
-
-h1 a{
-    text-transform: uppercase;
-    text-decoration:none;
-    letter-spacing: 2px;
-    font-family: 'Artifika', serif;
-    font-weight: lighter;
-    color: #3A999F;
 }
 
 .nav-bar a {
